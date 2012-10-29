@@ -1,0 +1,59 @@
+\documentclass{beamer}
+
+\usetheme{ihs}
+\usepackage{amsmath}
+
+\begin{document}
+
+\title[Short title]{Example for the IHS \LaTeX\ \textsc{beamer} slide template file}
+\author[Tam\'as]{Tam\'as K.~Papp}
+\institute[IHS]{IHS, Vienna}
+
+\begin{frame}[plain]
+  \titlepage
+\end{frame}
+
+\begin{frame}
+  \frametitle{Test title}
+
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+Itemized list:
+\begin{itemize}
+\item squre bullet points\dots
+\item \dots are nice!
+\item \alert{alert text}
+\end{itemize}
+
+Enumerate:
+\begin{enumerate}
+\item first
+\item second
+\item third
+\end{enumerate}
+
+\end{frame}
+
+\begin{frame}
+  This frame does not have a title.
+  \begin{enumerate}
+  \item It has
+  \item enumerated
+  \item points
+  \end{enumerate}
+  We use the \AmS\ Euler font for math:
+  \begin{equation*}
+    a^2+b^2=c^2
+  \end{equation*}
+
+  \begin{block}{Block title}
+    \begin{itemize}
+    \item test bullet point1
+    \item test bullet point2
+    \item \alert{alert in block}
+    \end{itemize}
+  \end{block}
+
+\end{frame}
+
+\end{document}

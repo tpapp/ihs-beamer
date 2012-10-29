@@ -49,6 +49,8 @@ For just the colors:
 \usecolortheme{ihs}
 #+END_SRC
 
+You can use two commands for generating logos, =\IHSlogo= and =\IHSlogotext=, the first is with text and the latter is without.  Both accept an optional argument that is passed on to =\includegraphics=.
+
 There is an example available, see =example.tex=.
 
 * Bugs/suggestions

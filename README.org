@@ -49,6 +49,8 @@ For just the colors:
 \usecolortheme{ihs}
 #+END_SRC
 
+There is an example available, see =example.tex=.
+
 * Bugs/suggestions
 
 Please report them via [[https://github.com/tpapp/ihs-beamer/issues][Github]].

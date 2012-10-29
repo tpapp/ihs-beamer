@@ -1,10 +1,10 @@
-#+TITLE: (Unofficial) LaTeX Beamer template for the Institute of Advanced Studies, Vienna
+* (Unofficial) LaTeX Beamer template for the Institute of Advanced Studies, Vienna
 
-* License
+** License
 
 All files and designs are copyright Institut für Höhere Studien (Institute for Advanced Studies, Vienna) and may not be used without permission.
 
-* Installation
+** Installation
 
 You need to make the files of the template available to your local TeX installation.  For most people, installing in their home directory is the easiest solution.
 
@@ -22,6 +22,6 @@ cd ~/texmf/tex/latex/beamer/
 #+END_SRC
 and get the template following one of the two options below.
 
-** Git
+*** Git
 
 This is the suggested method, especially if you have git installed.

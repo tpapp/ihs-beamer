@@ -20,8 +20,35 @@ Then you can
 #+BEGIN_SRC shell
 cd ~/texmf/tex/latex/beamer/
 #+END_SRC
-and get the template following one of the two options below.
+and get the template following one of the two options below.  You may have to run =mktexlsr= after getting the source and after updating.
 
 *** Git
 
-This is the suggested method, especially if you have git installed.
+This is the suggested method, since it makes it very easy to keep up with changes to the template.  If you don't have [[http://git-scm.com/][git]], you need to install it, then execute
+#+BEGIN_SRC shell
+git clone git://github.com/tpapp/ihs-beamer.git
+#+END_SRC
+and you are done.  If you want to check for updates, just switch to the appropriate directory and execute
+#+BEGIN_SRC shell
+git pull origin master
+#+END_SRC
+
+*** Zip/tar archive
+
+Available on [[https://github.com/tpapp/ihs-beamer/zipball/master][Github]].
+
+* Usage
+
+For the entire theme:
+#+BEGIN_SRC LaTeX
+\usetheme{ihs}
+#+END_SRC
+
+For just the colors:
+#+BEGIN_SRC LaTeX
+\usecolortheme{ihs}
+#+END_SRC
+
+* Bugs/suggestions
+
+Please report them via [[https://github.com/tpapp/ihs-beamer/issues][Github]].

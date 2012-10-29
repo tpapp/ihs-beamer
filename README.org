@@ -1,4 +1,4 @@
-* LaTeX Beamer template for the IHS Vienna
+* LaTeX Beamer template for the [[http://ihs.ac.at/][IHS]]
 
 This template if not official, and is under development.
 

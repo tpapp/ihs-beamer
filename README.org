@@ -1,0 +1,27 @@
+#+TITLE: (Unofficial) LaTeX Beamer template for the Institute of Advanced Studies, Vienna
+
+* License
+
+All files and designs are copyright Institut für Höhere Studien (Institute for Advanced Studies, Vienna) and may not be used without permission.
+
+* Installation
+
+You need to make the files of the template available to your local TeX installation.  For most people, installing in their home directory is the easiest solution.
+
+Executing
+#+BEGIN_SRC shell
+kpsewhich -var-value TEXMFHOME
+#+END_SRC
+in the command line will tell you your TeX home directory, which is usually =~/texmf/= or something similar.  You might want to make a subdirectory inside that to keep things tidy, eg
+#+BEGIN_SRC shell
+mkdir -p ~/texmf/tex/latex/beamer/
+#+END_SRC
+Then you can
+#+BEGIN_SRC shell
+cd ~/texmf/tex/latex/beamer/
+#+END_SRC
+and get the template following one of the two options below.
+
+** Git
+
+This is the suggested method, especially if you have git installed.

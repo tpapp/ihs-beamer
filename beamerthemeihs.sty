@@ -1,0 +1,34 @@
+\mode<presentation>
+
+\usecolortheme{ihs}
+\useinnertheme{rectangles}
+\useoutertheme{infolines}
+\usefonttheme{professionalfonts}
+%\usefonttheme{serif}
+%\usepackage{helvet}
+%\usepackage{fourier}
+\usepackage{euler}
+
+
+% hvmath, lucidabr, lucimatx, mathpmnt, mathpple, mathtime, mtpro, and mtpro2.
+
+\setbeamertemplate{navigation symbols}{} % no navigation symbols
+\setbeamertemplate{headline}{}
+
+\setbeamertemplate{footline}
+{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.90\paperwidth,ht=2.25ex,dp=1ex,left]{palette primary}%
+  ~~\includegraphics[height=2ex]{ihslogo.pdf}~~~\usebeamerfont{author in head/foot}\insertshortauthor\beamer@ifempty{\insertshortinstitute}{}{\insertshortinstitute}~---~\usebeamerfont{title in head/foot}\insertshorttitle
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.10\paperwidth,ht=2.25ex,dp=1ex,right]{palette primary}%
+%    \usebeamerfont{date in head/foot}\insertshortdate{}\hspace*{2em}
+    \insertframenumber{} / \inserttotalframenumber\hspace*{2ex} 
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
+
+
+\mode
+<all>

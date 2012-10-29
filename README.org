@@ -1,4 +1,6 @@
-* LaTeX Beamer template for the Institute of Advanced Studies, Vienna
+* LaTeX Beamer template for the IHS Vienna
+
+This template if not official, and is under development.
 
 ** License
 

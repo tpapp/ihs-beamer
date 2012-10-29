@@ -1,4 +1,4 @@
-* (Unofficial) LaTeX Beamer template for the Institute of Advanced Studies, Vienna
+* LaTeX Beamer template for the Institute of Advanced Studies, Vienna
 
 ** License
 

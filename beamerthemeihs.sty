@@ -18,7 +18,7 @@
   \leavevmode%
   \hbox{%
   \begin{beamercolorbox}[wd=.90\paperwidth,ht=2.25ex,dp=1ex,left]{palette primary}%
-  ~~\IHSlogo[height=2ex]~~~\usebeamerfont{author in head/foot}\insertshortauthor\beamer@ifempty{\insertshortinstitute}{}{~(\insertshortinstitute)}~---~\usebeamerfont{title in head/foot}\insertshorttitle
+  ~~\IHSlogo[height=2ex]~~~\usebeamerfont{author in head/foot}\insertshortauthor\expandafter\beamer@ifempty\expandafter{\beamer@shortinstitute}{}{~(\insertshortinstitute)}~---~\usebeamerfont{title in head/foot}\insertshorttitle
   \end{beamercolorbox}%
   \begin{beamercolorbox}[wd=.10\paperwidth,ht=2.25ex,dp=1ex,right]{palette primary}%
 %    \usebeamerfont{date in head/foot}\insertshortdate{}\hspace*{2em}
@@ -26,7 +26,6 @@
   \end{beamercolorbox}}%
   \vskip0pt%
 }
-
 
 \mode
 <all>

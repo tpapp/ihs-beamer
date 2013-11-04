@@ -12,6 +12,15 @@
 
 \setbeamertemplate{navigation symbols}{} % no navigation symbols
 \setbeamertemplate{headline}{}
+\setbeamertemplate{frametitle}
+{
+    \nointerlineskip
+    \begin{beamercolorbox}[sep=0.3cm,ht=1.8em,wd=\paperwidth]{frametitle}
+        \vbox{}\vskip-2ex%
+        \strut\insertframetitle\strut
+        \vskip-0.8ex%
+    \end{beamercolorbox}
+}
 
 \setbeamertemplate{footline}
 {

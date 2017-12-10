@@ -1,4 +1,4 @@
-# LaTeX Beamer template for the [[http://ihs.ac.at/][IHS]]
+# LaTeX Beamer template for the [IHS](http://ihs.ac.at/)
 
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](http://www.repostatus.org/badges/latest/wip.svg)](http://www.repostatus.org/#wip)
 
@@ -36,7 +36,7 @@ You can learn more installing TeX code in your home directory in the
 
 ### Git
 
-This is the suggested method, since it makes it very easy to keep up with changes to the template.  If you don't have [[http://git-scm.com/][git]], you need to install it.
+This is the suggested method, since it makes it very easy to keep up with changes to the template.  If you don't have [git](http://git-scm.com/), you need to install it.
 
 Then execute
 
@@ -54,7 +54,7 @@ git pull origin master
 
 Available on [Github](https://github.com/tpapp/ihs-beamer/zipball/master).
 
-# Usage
+## Usage
 
 In order to enable the theme, put
 ```latex
@@ -69,7 +69,7 @@ You can use two commands for generating logos, `\IHSlogo` and `\IHSlogotext`.  T
 
 There is an example available, see [`example.tex`](./example.tex).
 
-## Colors only
+### Colors only
 
 If you just want to use the IHS colors, they are available as a standalone color theme.  Put
 
@@ -80,6 +80,6 @@ If you just want to use the IHS colors, they are available as a standalone color
 in your document preamble.
 
 
-# Bugs/suggestions
+## Bugs/suggestions
 
 Please report them via [Github](https://github.com/tpapp/ihs-beamer/issues).

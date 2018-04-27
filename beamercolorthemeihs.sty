@@ -15,5 +15,14 @@
 %\setbeamercolor{footline }{fg=black,bg=ihsred!70!white}
 
 \setbeamercolor{alerted text}{fg=ihsred}
+\setbeamercolor{hyperlink}{fg=ihsred}
+
+\hypersetup{
+  colorlinks,
+  allcolors=.,
+  urlcolor=ihsred,
+}
+
+\renewcommand<>{\hyperlink}[2]{\only#3{\beameroriginal{\hyperlink}{#1}{\color{ihsred}#2}}}
 
 \mode<all>

@@ -2,11 +2,7 @@
 
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](http://www.repostatus.org/badges/latest/wip.svg)](http://www.repostatus.org/#wip)
 
-This template is *not official*.
-
-## License
-
-All logo files are copyright [Institut für Höhere Studien](https://www.ihs.ac.at) (Institute for Advanced Studies, Vienna) and may not be used without permission.
+This template is *not official*. See the [license](LICENSE.md).
 
 ## Installation
 

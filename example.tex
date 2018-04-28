@@ -2,6 +2,8 @@
 
 \usetheme{ihs}
 \usepackage{amsmath}
+\usepackage[style=authoryear]{biblatex}
+\addbibresource{example.bib}
 
 \begin{document}
 
@@ -34,9 +36,18 @@
   \item third
   \end{enumerate}
 
+  Logos with and without text:
+  \begin{center}
+    \IHSlogotext[height=2em] \hspace{2em} \IHSlogo[height=2em]
+  \end{center}
+
+  \hyperlink{frame:math}{Reference} to other frame. \\
+  Citing example \textcite{till17:_beamer}
+
 \end{frame}
 
 \begin{frame}
+  \label{frame:math}
   This frame does not have a title.  But it has math:
   \begin{equation*}
     a^2+b^2=c^2 \qquad \frac{\hat\pi}{\bar\pi}
@@ -52,10 +63,10 @@
 
   \bigskip
 
-  Logos with and without text:
-  \begin{center}
-    \IHSlogotext[height=2em] \hspace{2em} \IHSlogo[height=2em]
-  \end{center}
+  \begin{block}{Bibliography}
+    \printbibliography
+  \end{block}
+  
 \end{frame}
 
 \end{document}

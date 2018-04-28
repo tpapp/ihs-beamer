@@ -67,7 +67,7 @@ The info line at the bottom contains the short `\author` name, the short `\insit
 
 You can use two commands for generating logos, `\IHSlogo` and `\IHSlogotext`.  The first is with text and the latter is without.  Both accept an optional argument that is passed on to `\includegraphics`.
 
-There is an example available, see [`example.tex`](./example.tex).
+There is an example available, see [`example.tex`](./example.tex) and [`example.pdf`](./example.pdf)
 
 ### Colors only
 

@@ -7,4 +7,9 @@ example.nav
 example.out
 example.snm
 example.toc
-/example.synctex.gz
+example.synctex.gz
+example.bib
+example.bbl
+example.bcf
+example.blg
+example.run.xml
